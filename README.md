@@ -16,15 +16,8 @@ Esta es la documentación para la API REST de **Frontino**. Esta API está const
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Requisitos Previos](#requisitos-previos)
 - [Instalación](#instalación)
-- [Configuración](#configuración)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Endpoints de la API](#endpoints-de-la-api)
-  - [Ejemplos de Endpoints](#ejemplos-de-endpoints)
-- [Autenticación](#autenticación)
-- [Manejo de Errores](#manejo-de-errores)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+
 
 ## Descripción
 
@@ -60,9 +53,6 @@ Sigue estos pasos para configurar el entorno de desarrollo:
 ```bash
   pnpm install
 ```
-
-
-
 3. Creacion .env
 ```bash
       PORT=3000
@@ -90,3 +80,46 @@ Sigue estos pasos para configurar el entorno de desarrollo:
 4. Comando de Ejecucion de desarrollo
   ```bash
     pnpm run dev
+
+## Estructura del proyecto
+
+
+
+```
+turpial-api/
+│
+├── src/
+│   ├── core/               
+│   │   ├── config/
+│   │   │     ├──app.ts  
+│   │   │     └── firebase.ts 
+│   │   └── database
+│   │        └── firestore.ts
+│   ├── auth/                 # Authenticacion y creacion de tokens (ej: auth, tokes)
+│   ├── task/                 # Modulo de tareas
+│   │     ├── application
+│   │     │     ├── dto
+│   │     │     ├── services
+│   │     │     └── use-case
+│   │     ├── domain
+│   │     │     ├── model
+│   │     │     └──repositories
+│   │     └── Infrastruture
+│   │             ├── controllers
+│   │             ├── persistences
+│   │             └──routes
+│   ├── user/                 # modulo  de usuarios
+│   ├── shared/    
+│   └── index.ts              # Archivo principal de la app
+│    
+│
+├── test/                    # Pruebas unitarias y de integración
+│
+├── .gitignore
+├── tsconfig.json
+├── .env                     # Variables de entorno
+├── package.json
+├── pnpm-lock.yaml
+└── README.md
+```
+
