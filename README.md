@@ -57,11 +57,12 @@ Sigue estos pasos para configurar el entorno de desarrollo:
         cd turpial-api-rest
 
 2. Instalacion de dependecia
-  ```bash
-      pnpm install
+``bash
+  pnpm install
 
-3. creacion .env
-  ```bash
+
+3. Creacion .env
+```bash
       PORT=3000
       #Firebase services account
       FIREBASE_PROJECT_ID=""
