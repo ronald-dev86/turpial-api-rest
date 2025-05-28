@@ -56,7 +56,10 @@ Sigue estos pasos para configurar el entorno de desarrollo:
         https://github.com/ronald-dev86/turpial-api-rest.git
         cd turpial-api-rest
 
-2. Instalacion de dependecia: pnpm install
+2. Instalacion de dependecia
+```bash
+  pnpm install
+```
 
 
 
@@ -81,7 +84,9 @@ Sigue estos pasos para configurar el entorno de desarrollo:
       JWT_SECRET_KEY=""
       JWT_EXPIRES_IN=
       JWT_ALGORITHM=""
+  ```
+  
 
 4. Comando de Ejecucion de desarrollo
   ```bash
-      pnpm run dev
+    pnpm run dev
