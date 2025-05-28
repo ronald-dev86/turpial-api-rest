@@ -81,6 +81,8 @@ Sigue estos pasos para configurar el entorno de desarrollo:
   ```bash
     pnpm run dev
 
+  ```
+
 ## Estructura del proyecto
 
 
