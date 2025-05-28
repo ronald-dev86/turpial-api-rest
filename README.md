@@ -85,7 +85,7 @@ Sigue estos pasos para configurar el entorno de desarrollo:
 
 
 
-```
+```bash
 turpial-api/
 │
 ├── src/
