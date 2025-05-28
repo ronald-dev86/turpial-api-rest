@@ -1,4 +1,4 @@
-# API REST - Frontino 
+# API REST - Turpial Api 
 
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -28,11 +28,7 @@ Esta es la documentación para la API REST de **Frontino**. Esta API está const
 
 ## Descripción
 
-[Proporciona una descripción concisa pero informativa de lo que hace tu API. ¿Cuál es su propósito principal? ¿Qué funcionalidades ofrece?]
-
-Ejemplo:
-
-> Esta API permite gestionar la información de [entidad principal de tu API, e.g., usuarios, productos, pedidos]. Ofrece endpoints para crear, leer, actualizar y eliminar [entidades]. Además, proporciona funcionalidades para [otras funcionalidades relevantes].
+> Esta Api permite la gestion de tareas donde se puede crear usuario con solo el email, autenticarse obtener un token para la navegacion.
 
 ## Tecnologías Utilizadas
 
