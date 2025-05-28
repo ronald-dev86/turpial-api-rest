@@ -53,5 +53,35 @@ Sigue estos pasos para configurar el entorno de desarrollo:
 
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/cran/DELTD](https://github.com/cran/DELTD)
-   cd [nombre del repositorio]
+        https://github.com/ronald-dev86/turpial-api-rest.git
+        cd turpial-api-rest
+
+2. Instalacion de dependecia
+  ```bash
+      pnpm install
+
+3. creacion .env
+  ```bash
+      PORT=3000
+      #Firebase services account
+      FIREBASE_PROJECT_ID=""
+      FIREBASE_PRIVATE_KEY_ID=""
+      FIREBASE_PRIVATE_KEY=""
+      FIREBASE_CLIENT_EMAIL=""
+      FIREBASE_CLIENT_ID=""
+      FIREBASE_AUTH_URI=""
+      FIREBASE_TOKEN_URI=""
+      FIREBASE_AUTH_CERT_URL=""
+      FIREBASE_CLIENT_CERT_URL=""
+
+      #Bcrypt
+      BCRYPT_SALT=
+
+      #JWT
+      JWT_SECRET_KEY=""
+      JWT_EXPIRES_IN=
+      JWT_ALGORITHM=""
+
+4. Comando de Ejecucion de desarrollo
+  ```bash
+      pnpm run dev
