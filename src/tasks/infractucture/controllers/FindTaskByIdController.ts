@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
-import { FindTaskByIdService } from "../../application/service/findTaskByIdService"
-import { FindTaskByIdUseCase } from "../../application/use-case/findTaskByIdRepository"
+import { FindTaskByIdService } from "../../application/service/FindTaskByIdService"
+import { FindTaskByIdUseCase } from "../../application/use-case/FindTaskByIdRepository"
 import { FindTaskByIdColletionFirebase } from "../persistences/FindTaskByIdColletionFirebase"
 
 export class  FindTaskByIdController  {
