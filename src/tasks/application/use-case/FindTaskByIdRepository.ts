@@ -1,4 +1,4 @@
-import { FindTaskByIdService } from "../service/findTaskByIdService";
+import { FindTaskByIdService } from "../service/FindTaskByIdService";
 
 export class FindTaskByIdUseCase {
     constructor(private findTaskbyIDService: FindTaskByIdService) {}
