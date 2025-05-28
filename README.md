@@ -57,7 +57,7 @@ Sigue estos pasos para configurar el entorno de desarrollo:
         cd turpial-api-rest
 
 2. Instalacion de dependecia
-``bash
+```bash
   pnpm install
 
 
